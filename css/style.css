@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Axiforma, sans-serif !important;
+}
+.boxes {
+    background: #92b02f;
+    color: #fff;
+}
+.questions {
+    background: #d9e4c6;
+    color: #000;
+}
+.options {
+    color: #80c1e5;
+}
+.btn.disabled,
+.btn:disabled,
+fieldset:disabled .btn {
+    background: #bcbcbc !important;
+    border: none;
+}
